@@ -35,7 +35,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '16'  # Zorg ervoor dat dit overeenkomt met jouw Node.js versie
+          node-version: '20'  # Gebruik hier Node.js 20, of kies 16 als dat beter past
 
       - name: Install dependencies
         run: npm install
